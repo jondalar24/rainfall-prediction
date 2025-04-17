@@ -1,0 +1,26 @@
+# 🛑 .gitignore para entorno Python
+
+# Entorno virtual
+venv/
+
+# Archivos temporales
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Salidas de ejecución
+*.log
+*.out
+*.tmp
+
+# Archivos de datos pesados (opcional)
+# weatherAUS.csv
